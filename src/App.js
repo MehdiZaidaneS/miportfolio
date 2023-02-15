@@ -9,7 +9,7 @@ import {
 import ContactMe from './Components/ContactMe/ContactMe';
 import Projects from './Components/Projects/Projects';
 import FrontPage from "./Components/FrontPage/FrontPage";
-// import logo from "./media/logo.png"
+ import logo from "./media/logo.png"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -23,10 +23,10 @@ import {
 function App() {
   return (
     
-    <Router>
+    <Router basename='/miportfolio'>
       <div className="App" >
         <div className='logo'>
-        {/* <Link to="/"><img src={logo} alt="" width={60}></img></Link> */}
+        <Link to="/"><img src={logo} alt="" width={60}></img></Link> 
           
         </div>
         <div className='Bar'>
