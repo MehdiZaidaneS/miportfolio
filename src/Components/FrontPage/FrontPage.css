@@ -1,0 +1,18 @@
+.FrontPage{
+  background-color: gray;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 100%;
+}
+
+.FrontPage h1{
+    font-size: 200px;
+}
+
+
+.recentprojects{
+    text-align: center;
+}
