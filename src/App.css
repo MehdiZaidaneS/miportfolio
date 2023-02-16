@@ -12,9 +12,9 @@ body{
   margin: 0 auto;
   text-align: center;
   justify-content: center;
-  overflow: hidden;
+   overflow: hidden;
   position: fixed;
-  top: 0%;
+  top: 0%; 
   width: 100% 
 }
 
@@ -78,9 +78,56 @@ body{
   font-size: 15px;
   color: white;
   background: none;
+  border: none;
   cursor: pointer;
 }
 
+
+.Bar2{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Bar2 a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+  width: fit-content;
+}
+
+.Bar2 a:hover{
+  text-decoration: underline rgba(255, 255, 255, 0.705);
+}
+
+.Bar2 a:focus{
+  text-decoration: underline rgba(255, 255, 255, 0.705);
+}
+
+.socialmedia2{
+  margin-top: 30px;
+}
+
+.socialmedia2 a{
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.sidebar p{
+  margin-top: 100px;
+  font-style: italic;
+}
+
+.footer2 a{
+  color: white;
+  margin: 10px;
+  font-size: 15px;
+}
 
 @media only screen and (max-width: 1280px) {
   
@@ -117,11 +164,12 @@ body{
 
   .logo{
     margin: 0 auto;
+    
   }
   .bars{
     display:block;
     margin-right: 15px;
-    margin-left: -15px;
+    margin-left: -65px;
   }
 
   .sidebar{

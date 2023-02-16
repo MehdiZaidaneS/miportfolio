@@ -92,9 +92,9 @@ useEffect(() => {
       { sidebar &&
       <div className='sidebar'>
           <div className='Bar2'>
-            <Link to="/"><button onClick={change}>Home</button></Link>
-            <Link to="/projects"><button onClick={change}>Projects</button></Link>
-            <Link to="/contact"><button onClick={change}>Contact</button></Link>
+            <Link to="/" onClick={change}>Home</Link>
+            <Link to="/projects" onClick={change}>Projects</Link>
+            <Link to="/contact" onClick={change}>Contact</Link>
           </div>
           <div className='socialmedia2'>
             <a href="https://github.com/MehdiZaidaneS" 
@@ -106,7 +106,9 @@ useEffect(() => {
                <FontAwesomeIcon icon={faLinkedin} size="2x" />
              </a>
           </div>
+          <p>Find me:</p>
           <div className='footer2'> 
+          
              <a href="https://www.youtube.com/c/jamesqquick" 
                 className="youtube social" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faYoutube} size="2x" />
