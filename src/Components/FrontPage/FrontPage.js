@@ -1,13 +1,96 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import foto from "./foto.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import Progressbar from './Progress_bar';
 
 
 import "./FrontPage.css"
 
 
 const FrontPage = () => {
+
+
+ const [skills, setSkills] = useState(true);
+ const [experience, setExperience] = useState(false);
+ const [education, setEducation] = useState(false);
+ const [color, setColor] = useState("transparent")
+ const [color2, setColor2] = useState("transparent")
+ const [color3, setColor3] = useState("transparent")
+
+ useEffect(()=>{
+  if(skills === true){
+      setColor("gray")
+  }else if(skills === false){
+    setColor("transparent")
+
+  }if(education === true){
+    setColor3("gray")
+  }else if(education === false){
+    setColor3("transparent")
+
+  }if(experience === true){
+    setColor2("gray")
+  }else if(experience === false){
+    setColor2("transparent")
+  }
+}, [skills, education, experience])
+
+
+
+const codingSkills = [
+  {
+    id: 0,
+    name: "HTML",
+    progress: 100,
+    percentage: "100%"
+  },
+  {
+    id: 1,
+    name: "CSS",
+    progress: 90,
+    percentage: "90%"
+  },
+  {
+    id: 2,
+    name: "React",
+    progress: 85,
+    percentage: "80%"
+  },
+  {
+    id: 3,
+    name: "JavaScript",
+    progress: 85,
+    percentage: "85%"
+  },
+  {
+    id: 4,
+    name: "Typescript",
+    progress: 85,
+    percentage: "85%"
+  },  
+  {
+    id: 5,
+    name: "C#",
+    progress: 70,
+    percentage: "70%"
+  },
+  {
+    id: 6,
+    name: "Java",
+    progress: 70,
+    percentage: "70%"
+  },
+  {
+    id: 7,
+    name: "SQL",
+    progress: 50,
+    percentage: "50%"
+  },
+  
+
+]
+
   return (
     <div>
       
@@ -35,28 +118,44 @@ const FrontPage = () => {
          <h1>About Me</h1>
          <div className='aboutMe'>
            <img src={foto} alt="" width={400}></img>
-           <div>
+           <div className='try'>
              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
              <button>Download CV</button>
-           </div>
-           
+             <button>Contact Me</button>
+            </div>
          </div>
          <div className='myInfo'>
-           <div>
-             <button>Skills</button>
-             <button>Experience</button>
-             <button>Education</button>
+           <div className='buttons'>
+             <button style={{backgroundColor: color}} onClick={()=> {setSkills(true); setEducation(false); setExperience(false)}}>Skills</button>
+             <button style={{backgroundColor: color2}} onClick={()=> {setSkills(false); setEducation(false); setExperience(true)}}>Experience</button>
+             <button style={{backgroundColor: color3}} onClick={()=> {setSkills(false); setEducation(true); setExperience(false)}}>Education</button>
            </div>
-           <div>
-
+           {skills &&
+            <div className='skills'>
+               {
+                codingSkills.map(skill => {
+                  return(
+                 
+                      <Progressbar bgcolor="gray" progress={skill.progress} name={skill.name} height={23} />
+                    
+                  )
+                })
+               }
            </div>
-           <div>
-
+           }
+           { experience &&
+            <div>
+              <h1>Experience</h1>
            </div>
-           <div>
-
+           }
+           { education &&
+            <div>
+              <h1>Education</h1>
            </div>
+           }
+          
+          
          </div>
       </div>
      
