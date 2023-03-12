@@ -147,7 +147,7 @@ body{
 
 @media only screen and (max-width: 777px) {
   .App{
-    position: relative;
+    position: fixed;
   }
   .Bar{
     display: none;
@@ -173,14 +173,15 @@ body{
   }
 
   .sidebar{
-    position: absolute;
+    position:static;
     background-color: black;
-    height: 91.2vh;
+    height: 90.3vh;
     width: 100%;
     color: white;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
+    padding-top: 90px;
   }
   
 }
