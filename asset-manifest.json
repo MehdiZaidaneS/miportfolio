@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "./static/css/main.2e2ff61a.css",
-    "main.js": "./static/js/main.bcdc8812.js",
+    "main.css": "./static/css/main.3887b13b.css",
+    "main.js": "./static/js/main.00e0882e.js",
     "static/js/787.1f11dfe9.chunk.js": "./static/js/787.1f11dfe9.chunk.js",
+    "static/media/techweb.jpg": "./static/media/techweb.9972b2c98182ff3290fc.jpg",
     "static/media/foto.jpg": "./static/media/foto.2839becd20d3db90c1c0.jpg",
+    "static/media/portofolio.png": "./static/media/portofolio.4ea5cb71aaf2dce5e9ac.png",
+    "static/media/wolfgame.jpg": "./static/media/wolfgame.d6dfd4ec0a5cafd73ecb.jpg",
+    "static/media/gymapp.png": "./static/media/gymapp.cbfeaa6a327a166c33e6.png",
+    "static/media/web.png": "./static/media/web.8404dee1f8d788033637.png",
+    "static/media/santasnow.jpg": "./static/media/santasnow.05416a9f76e209495ee7.jpg",
+    "static/media/dodgeball.png": "./static/media/dodgeball.383814fd6a9de8a7019e.png",
+    "static/media/UserLogAndReg.jpg": "./static/media/UserLogAndReg.6e46607a746aed717446.jpg",
     "static/media/logo.png": "./static/media/logo.c16d1790ab34884e9a26.png",
     "static/media/fondo.jpg": "./static/media/fondo.351a5e56cd26b3811574.jpg",
+    "static/media/ChatApp.png": "./static/media/ChatApp.61d1f7e3b5435d2f8e33.png",
+    "static/media/java.png": "./static/media/java.c868ef295cc32c6b540d.png",
     "index.html": "./index.html",
-    "main.2e2ff61a.css.map": "./static/css/main.2e2ff61a.css.map",
-    "main.bcdc8812.js.map": "./static/js/main.bcdc8812.js.map",
+    "main.3887b13b.css.map": "./static/css/main.3887b13b.css.map",
+    "main.00e0882e.js.map": "./static/js/main.00e0882e.js.map",
     "787.1f11dfe9.chunk.js.map": "./static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e2ff61a.css",
-    "static/js/main.bcdc8812.js"
+    "static/css/main.3887b13b.css",
+    "static/js/main.00e0882e.js"
   ]
 }
