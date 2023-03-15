@@ -1,0 +1,27 @@
+.Project{
+    background-color: rgb(26, 25, 25);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(46, 46, 46, 0.377);
+}
+
+
+.Project:hover{
+    cursor: pointer;
+    background-color: rgba(68, 68, 68, 0.342);
+}
+
+.Project img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Project span{
+    color: rgba(245, 245, 245, 0.781);
+    margin-left: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
