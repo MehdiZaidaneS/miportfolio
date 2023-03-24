@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Project from './Project/Project'
+import ShowProject from './ShowProject/ShowProject'
 import "./Projects.css"
 
 import santa from "./media/santasnow.jpg"
@@ -126,32 +127,54 @@ const Projects = () => {
   projects.filter(project => project.language === languageShow)
 
 
+  const nextButton = () =>{
+    let nextIndex = 0;
+    const currentIndex = projectToShow.findIndex(x => showProject.id === x.id);
+    nextIndex = currentIndex === projectToShow.length - 1 ?  0  : currentIndex + 1;
+    setShowProject(projectToShow[nextIndex])
+  }
+
+  const previousButton = () =>{
+    let previousIndex = 0;
+    const currentIndex = projectToShow.findIndex(x => showProject.id === x.id);
+    previousIndex = currentIndex === 0 ? projectToShow.length - 1 : currentIndex - 1;
+    setShowProject(projectToShow[previousIndex])
+  }
+
+
   return (
-    <div className='Projects'>
-      <h1>Latest Works</h1>
-      <div className='buttons'>
-         <button onClick={() => setLanguageShow("")}>All</button>
-         <button onClick={() =>setLanguageShow("React")}>React</button>
-         <button onClick={() =>setLanguageShow("TypeScript")}>TypeScript</button>
-         <button onClick={() =>setLanguageShow("C#")}>C#</button>
-         <button onClick={() =>setLanguageShow("Java")}>Java</button>
-         <button onClick={() =>setLanguageShow("HTML & CSS")}>HTML & CSS</button>
-      </div>
-      {
-        abrir &&
-        <p>{showProject.title}</p>
-      }
-      <div className='projectsDisplayed'>
-      {
-        projectToShow.map(project => {
-          return(
-            <button onClick={()=> {setAbrir(false); setShowProject(project)}}> <Project pic={project.url} title={project.title}></Project></button>
-          )
-        })
-      }
-      </div>
-      
-    </div>
+    <div className='intento'>
+       <div className='Projects'>
+         <h1>Latest Works</h1>
+         <div className='buttons'>
+            <button onClick={() => setLanguageShow("")}>All</button>
+            <button onClick={() =>setLanguageShow("React")}>React</button>
+            <button onClick={() =>setLanguageShow("TypeScript")}>TypeScript</button>
+            <button onClick={() =>setLanguageShow("C#")}>C#</button>
+            <button onClick={() =>setLanguageShow("Java")}>Java</button>
+            <button onClick={() =>setLanguageShow("HTML & CSS")}>HTML & CSS</button>
+         </div>
+         {
+           abrir &&
+           <div className='moreInfo'>
+             <ShowProject title={showProject.title} description={showProject.description} ano={showProject.año} language={showProject.language} url={showProject.url} link={showProject.link}/>
+             <button onClick={()=> previousButton()}>Previous</button>
+             <button onClick={()=> setAbrir(false)}>Close</button>
+             <button onClick={()=> nextButton()}>Next</button>
+           </div>
+         }
+         <div className='projectsDisplayed'>
+         {
+           projectToShow.map(project => {
+             return(
+               <button onClick={()=> {setAbrir(true); setShowProject(project)}}> <Project pic={project.url} title={project.title}></Project></button>
+             )
+           })
+         }
+         </div>
+         
+       </div>
+  </div>
   )
 }
 

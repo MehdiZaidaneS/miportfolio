@@ -1,3 +1,6 @@
 .Contactme{
-    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 100%;
 }

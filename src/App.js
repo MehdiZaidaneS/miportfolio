@@ -59,7 +59,7 @@ useEffect(() => {
   return (
 
     
-    
+    <div className='AppBase'>
     <Router basename='/miportfolio'>
     <div className="App" >
     
@@ -156,8 +156,9 @@ useEffect(() => {
       </div>
        
 
-    </Router>
-  
+    </Router>  
+    </div>
+
   );
 }
 
