@@ -24,6 +24,10 @@
 .projectInfo{
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    
+    width: 100%;
 }
 
 .projectInfo h3{
@@ -34,7 +38,7 @@
 
 .projectInfo div{
    
-    margin: 20px;
+    margin: 10px;
 }
 
 .projectInfo p{
@@ -57,15 +61,35 @@
 }
 
 
-
-.uno{
-   width: fit-content;
+.dos{
+    width: fit-content;
+    
 }
 
-.dos{
-    width: 35%;
+.uno{
+    width: fit-content;
+
 }
 
 .tres{
-    width: fit-content;
+    width: 30%;
+    
+}
+
+
+@media only screen and (max-width: 1530px) {
+    .uno{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .projectInfo{
+        display: block;
+       
+    }
+    .tres{
+        width: fit-content;
+      
+    }
 }

@@ -22,6 +22,7 @@ const Projects = () => {
  
 
   const [languageShow, setLanguageShow] = useState("");
+
   const [abrir, setAbrir] = useState(false)
   const [showProject, setShowProject] = useState({})
 
@@ -145,7 +146,7 @@ const Projects = () => {
   return (
     <div className='intento'>
        <div className='Projects'>
-         <h1>Latest Works</h1>
+         <h1>Latest Works</h1> 
          <div className='buttons'>
             <button onClick={() => setLanguageShow("")}>All</button>
             <button onClick={() =>setLanguageShow("React")}>React</button>
@@ -154,6 +155,7 @@ const Projects = () => {
             <button onClick={() =>setLanguageShow("Java")}>Java</button>
             <button onClick={() =>setLanguageShow("HTML & CSS")}>HTML & CSS</button>
          </div>
+    
          {
            abrir &&
            <div className='moreInfo'>
