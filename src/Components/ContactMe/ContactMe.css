@@ -1,6 +1,209 @@
 .Contactme{
+    margin: 0px;
+    min-height: 100vh;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+.Contactme h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.Contactme h2{
+    color: gray;
+}
+
+.Contactme form{
+   display: flex;
+   flex-direction: row; 
+   width: 90%;
+   margin: 0 auto;
+   color: white;
+}
+
+/* .form{
     display: flex;
     flex-direction: column;
-    background-color: gray;
-    height: 100%;
+    width: 100%;
+} */
+
+
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.block3{
+    width: 50%;
+}
+
+.form input{
+    background-color: rgba(128, 128, 128, 0.11);
+    border: none;
+    border-radius: 1%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.form textarea{
+    background-color: rgba(128, 128, 128, 0.11);
+    border: none;
+    border-radius: 1%;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 95%;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.form button{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: solid 1px rgba(255, 255, 255, 0.178);
+    background-color: rgb(104, 104, 104);
+    color: white;
+    border-radius: 1%;
+    width: 100%;
+}
+
+.form button:hover{
+    cursor: pointer;
+}
+
+.papa{
+   margin: 0 auto;
+   text-align: right;
+   justify-content: right;
+   width: 100%;
+}
+
+
+
+#hola{
+    width: fit-content;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.info div{
+    margin: 10px;
+    padding: 0px;
+    width: 20%;
+    border: 5px solid rgba(128, 128, 128, 0.308);
+    border-radius: 8%;
+    box-shadow:5px 10px  rgb(44, 44, 44);
+}
+
+.holahola{
+    width: 100%;
+}
+
+.info2{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+  
+    .info div{
+        width: 50%;
+    }
+
+    .info div{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 780px) {
+  
+    .Contactme form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     }
+
+     .Contactme form div{
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+     }
+    
+     .form textarea{
+        width: 90%;
+
+    }
+    
+    
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+  
+
+    .info{
+        display: none;
+    }
+
+    .info2{
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 30px;
+
+    }
+
+    .info2 div{
+        
+        margin: 10px;
+        padding: 0px;
+        width: 40%;
+        border: 5px solid rgba(128, 128, 128, 0.308);
+        border-radius: 8%;
+        box-shadow:5px 10px  rgb(44, 44, 44);
+        margin: 0 auto;
+        margin-bottom: 25px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+    .info2 div{
+        
+        margin: 10px;
+        padding: 0px;
+        width: 60%;
+        border: 5px solid rgba(128, 128, 128, 0.308);
+        border-radius: 8%;
+        box-shadow:5px 10px  rgb(44, 44, 44);
+        margin: 0 auto;
+        margin-bottom: 25px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
 }
