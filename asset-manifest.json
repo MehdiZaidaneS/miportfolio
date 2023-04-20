@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.5aecb917.css",
-    "main.js": "./static/js/main.f54ed93e.js",
+    "main.css": "./static/css/main.3aa49c82.css",
+    "main.js": "./static/js/main.49c107b8.js",
     "static/js/787.1f11dfe9.chunk.js": "./static/js/787.1f11dfe9.chunk.js",
     "static/media/techweb.jpg": "./static/media/techweb.9972b2c98182ff3290fc.jpg",
     "static/media/foto.jpg": "./static/media/foto.2839becd20d3db90c1c0.jpg",
@@ -17,12 +17,12 @@
     "static/media/ChatApp.png": "./static/media/ChatApp.61d1f7e3b5435d2f8e33.png",
     "static/media/java.png": "./static/media/java.c868ef295cc32c6b540d.png",
     "index.html": "./index.html",
-    "main.5aecb917.css.map": "./static/css/main.5aecb917.css.map",
-    "main.f54ed93e.js.map": "./static/js/main.f54ed93e.js.map",
+    "main.3aa49c82.css.map": "./static/css/main.3aa49c82.css.map",
+    "main.49c107b8.js.map": "./static/js/main.49c107b8.js.map",
     "787.1f11dfe9.chunk.js.map": "./static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aecb917.css",
-    "static/js/main.f54ed93e.js"
+    "static/css/main.3aa49c82.css",
+    "static/js/main.49c107b8.js"
   ]
 }
