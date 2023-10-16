@@ -14,6 +14,9 @@ import ChatApp from "./media/ChatApp.png"
 import GymApp from "./media/gymapp.png"
 import portofolio from "./media/portofolio.png"
 
+import SV2022 from "./media/SV2022.png"
+import zhoot from "./media/zhoot.png"
+
 
 
 const Projects = () => {
@@ -28,6 +31,24 @@ const Projects = () => {
 
 
   const projects = [
+    {
+      title: "ZHOOT",
+      description: "Making my personal social network with React Js.",
+      año: 2023,
+      language: "React",
+      url: zhoot,
+      id: 11,
+      link: "https://github.com/MehdiZaidaneS/socialnetwork"
+    },
+    {
+      title: "Supervivientes 2022",
+      description: "TV reality web site project made with React JS.",
+      año: 2022,
+      language: "React",
+      url: SV2022,
+      id: 10,
+      link: "https://github.com/MehdiZaidaneS/SV2022"
+    },
     {
       title: "Old Portfolio",
       description: "My first portfolio created with React Typescript.",

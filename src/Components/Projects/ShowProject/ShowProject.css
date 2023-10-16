@@ -8,6 +8,7 @@
     border: 10px solid rgba(54, 54, 54, 0.836);
     border-radius: 10px;
     color: rgb(255, 255, 255);
+  
 
 }
 
@@ -63,11 +64,12 @@
 
 .dos{
     width: fit-content;
-    
+    height: fit-content;
 }
 
 .uno{
     width: fit-content;
+  
 
 }
 
@@ -81,15 +83,25 @@
     .uno{
         display: none;
     }
+
+    .dos{
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
+    .showProject{
+        height: 48vh;
+    } 
     .projectInfo{
         display: block;
-       
+    }
+
+
+    .dos{
+      width: fit-content;      
     }
     .tres{
         width: fit-content;
-      
     }
 }

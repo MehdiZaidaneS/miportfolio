@@ -77,7 +77,7 @@ useEffect(() => {
                className="youtube social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faGithub} size="2x" />
              </a>
-             <a href="https://www.facebook.com/learnbuildteach/"
+             <a href="https://www.linkedin.com/in/mehdi-zaidane-015a14296/"
                className="facebook social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faLinkedin} size="2x" />
              </a>
@@ -101,7 +101,7 @@ useEffect(() => {
                className="youtube social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faGithub} size="2x" />
              </a>
-             <a href="https://www.facebook.com/learnbuildteach/"
+             <a href="https://www.linkedin.com/in/mehdi-zaidane-015a14296/"
                className="facebook social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faLinkedin} size="2x" />
              </a>
@@ -109,18 +109,18 @@ useEffect(() => {
           <p>Find me:</p>
           <div className='footer2'> 
           
-             <a href="https://www.youtube.com/c/jamesqquick" 
+             <a href="https://www.youtube.com/@freecodecamp" 
                 className="youtube social" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faYoutube} size="2x" />
               </a>
-              <a href="https://www.facebook.com/learnbuildteach/"
+              <a href="https://www.facebook.com/mehdi.zaidane.56/"
                 className="facebook social" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
-              <a href="https://www.twitter.com/jamesqquick" className="twitter social" target="_blank" rel="noopener noreferrer">
+              <a href="https://twitter.com/reactjs" className="twitter social" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTwitter} size="2x" />
               </a>
-              <a href="https://www.instagram.com/learnbuildteach"
+              <a href="https://www.instagram.com/mehdi_zdn5/"
                 className="instagram social" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
@@ -138,18 +138,18 @@ useEffect(() => {
      }
 
       <div className="footer">
-         <a href="https://www.youtube.com/c/jamesqquick" 
+         <a href="https://www.youtube.com/@freecodecamp" 
            className="youtube social" target="_blank" rel="noopener noreferrer">
            <FontAwesomeIcon icon={faYoutube} size="2x" />
          </a>
-         <a href="https://www.facebook.com/learnbuildteach/"
+         <a href="https://www.facebook.com/mehdi.zaidane.56/"
            className="facebook social" target="_blank" rel="noopener noreferrer">
            <FontAwesomeIcon icon={faFacebook} size="2x" />
          </a>
-         <a href="https://www.twitter.com/jamesqquick" className="twitter social" target="_blank" rel="noopener noreferrer">
+         <a href="https://twitter.com/reactjs" className="twitter social" target="_blank" rel="noopener noreferrer">
            <FontAwesomeIcon icon={faTwitter} size="2x" />
          </a>
-         <a href="https://www.instagram.com/learnbuildteach"
+         <a href="https://www.instagram.com/mehdi_zdn5/"
            className="instagram social" target="_blank" rel="noopener noreferrer">
            <FontAwesomeIcon icon={faInstagram} size="2x" />
          </a>

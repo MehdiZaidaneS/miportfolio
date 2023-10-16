@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import foto from "./foto.jpg"
+import CV from "./CV PROGRAMMING.pdf"
+import foto from "./foto5.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import Experience from './Experience/Experience'
 import Progressbar from './Progress_bar';
+import {
+	Link
+} from 'react-router-dom';
 
 
 import "./FrontPage.css"
@@ -97,7 +101,7 @@ const workExperience = [
     year: "31.03.2022 - 11.11.2022",
     jobTitle: "Software Developer",
     company: "Crementum Oy",
-    introduction: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    introduction: "My role at Crementum was to control, update and maintain the functioning of the whole system. The goal was to store and display the recorded sensor data in the database as in Grafana. The programming language was Java and the database was InfluxDB. I also used tools like Azure DevOps, Azure Portal, PuTTY or Grafana."
   }
 ]
 
@@ -107,21 +111,21 @@ const educationExperience = [
     year: "2020 - 2023",
     jobTitle: "Software Developer",
     company: "Vantaan Ammattiopisto Varia",
-    introduction: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    introduction: "I completed my Information and communication technology degree at Varia Vocational School. There I learnt the basics of ICT and I focused on the branch of Software Development as a profession."
   },
   {
     id: 1,
     year: "2017 - 2018",
     jobTitle: "Lukio",
     company: "IES Ben Gabirol",
-    introduction: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    introduction: "I completed the scientific baccalaureate in Malaga, Spain."
   },
   {
     id: 2,
-    year: "2013 - 2017",
+    year: "2007 - 2017",
     jobTitle: "Peruskoulu",
     company: "IES Mercedes Labrador",
-    introduction: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    introduction: "I completed my compulsory secondary education in Malaga, Spain."
   },
   
 ]
@@ -136,8 +140,8 @@ const educationExperience = [
                 <div className='text'>
                    <h2>Mehdi Zaidane</h2>
                    <h1>I'M A DEVELOPER</h1>
-                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                   <button>Contact Me</button>
+                   <p>Passionate Front-End developer capable of transforming ideas into incredible functional web pages.</p>
+                   <button><Link to="/contact">Contact Me</Link></button>
                </div>
                <div className='photo'>
                    <img src={foto} alt="" width={430}></img>
@@ -155,10 +159,11 @@ const educationExperience = [
          <div className='aboutMe'>
            <img src={foto} alt="" width={400}></img>
            <div className='try'>
-             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-             <button>Download CV</button>
-             <button>Contact Me</button>
+             <p>I'm Mehdi Zaidane and I just finished my programming degree at Varia Vocational School. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack delevoper one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have some SQL experience.  I have 5 months of work experience as a programmer and I have also done many personal projects which you can see on GitHub.</p><br></br>
+              <p>You can check all my work and personal projects in this portfolio. </p>
+             <button><a href={CV} download>Download CV</a></button>
+             <button><Link to="/contact">Contact Me</Link></button>
+             
             </div>
          </div>
          <div className='myInfo'>

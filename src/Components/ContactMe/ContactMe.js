@@ -16,16 +16,23 @@ const ContactMe = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    
 
     emailjs.sendForm('service_m8qri4q', 'template_s0o3oed', form.current, 'QPj-IwKz1Ed2NheEk')
       .then((result) => {
           console.log(result.text);
+          
+          
       }, (error) => {
           console.log(error.text);
       });
 
-      alert("Email Sent!")
+      alert("The email has been sent to Mehdi successfully!")
+      form.current.reset();
+      
+      
   };
+
 
 
   const cards = [
@@ -39,13 +46,13 @@ const ContactMe = () => {
       id: 1,
       name: "Location",
       icon: faHome,
-      text: "Finland"
+      text: "Helsinki, Finland"
     },
     {
       id: 2,
       name: "Phone",
       icon: faPhone,
-      text: "+345123456789"
+      text: "+345 123 456 789"
     }
 
   ]
@@ -62,7 +69,7 @@ const ContactMe = () => {
               return(
               <div>
                 <h2>{card.name}</h2>
-                <FontAwesomeIcon icon={card.icon} size="2x" />
+                <FontAwesomeIcon icon={card.icon} size="1x" />
                 <p>{card.text}</p>
               </div>
               )
@@ -90,7 +97,7 @@ const ContactMe = () => {
 
 
          <div className='holahola'>
-            <form className='form' ref={form} onSubmit={sendEmail}>
+            <form className='form' id='myForm' ref={form} onSubmit={sendEmail}>
                  <div className='block1'>
                     <input placeholder='Name' type='text' name='user_name'/>
                     <input placeholder='Email' type='email' name='user_email'/>
@@ -98,7 +105,7 @@ const ContactMe = () => {
                  <div className='block3'>
                     <textarea placeholder='Message' name='message' rows={7}></textarea>
                     <div className='papa'>
-                      <button type='submit' id='hola' name='submit'>Send Message</button>
+                      <button type='submit' id='hola' name='submit' >Send Message</button>
                     </div> 
                  </div>
             </form>

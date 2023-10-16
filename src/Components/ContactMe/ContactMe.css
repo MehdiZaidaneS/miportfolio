@@ -32,6 +32,14 @@
     width: 100%;
 } */
 
+.info p{
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.info2 p{
+    font-family: 'Courier New', Courier, monospace;
+ }
+
 
 
 .block1{
@@ -52,6 +60,7 @@
     padding: 10px;
     margin: 10px;
     color: rgba(255, 255, 255, 0.692);
+    font-family:'Courier New', Courier, monospace;
 }
 
 .form textarea{
@@ -63,6 +72,7 @@
     margin: 10px;
     width: 95%;
     color: rgba(255, 255, 255, 0.692);
+    font-family:'Courier New', Courier, monospace;
 }
 
 .form button{
@@ -104,31 +114,51 @@
 .info div{
     margin: 10px;
     padding: 0px;
-    width: 20%;
+    width: 15%;
     border: 5px solid rgba(128, 128, 128, 0.308);
-    border-radius: 8%;
-    box-shadow:5px 10px  rgb(44, 44, 44);
+    border-radius: 3%;
+    box-shadow:5px 10px  rgba(44, 44, 44, 0.288);
 }
 
 .holahola{
-    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    width: 85%;
 }
 
 .info2{
     display: none;
 }
 
+.info2 button{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    border: solid 1px rgba(255, 255, 255, 0.178);
+    background-color: rgb(104, 104, 104);
+    color: white;
+    border-radius: 1%;
+    margin: 1px;
+}
+
+.info2 button:hover{
+    cursor: pointer;
+}
 
 
 @media only screen and (max-width: 1150px) {
   
     .info div{
-        width: 50%;
+        width: 30%;
     }
 
     .info div{
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .holahola{
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
     }
     
   }
@@ -177,8 +207,8 @@
         padding: 0px;
         width: 40%;
         border: 5px solid rgba(128, 128, 128, 0.308);
-        border-radius: 8%;
-        box-shadow:5px 10px  rgb(44, 44, 44);
+        border-radius: 3%;
+        box-shadow:5px 10px  rgba(44, 44, 44, 0.288);
         margin: 0 auto;
         margin-bottom: 25px;
         justify-content: center;
@@ -197,8 +227,8 @@
         padding: 0px;
         width: 60%;
         border: 5px solid rgba(128, 128, 128, 0.308);
-        border-radius: 8%;
-        box-shadow:5px 10px  rgb(44, 44, 44);
+        border-radius: 3%;
+        box-shadow:5px 10px  rgba(44, 44, 44, 0.288);
         margin: 0 auto;
         margin-bottom: 25px;
         justify-content: center;
