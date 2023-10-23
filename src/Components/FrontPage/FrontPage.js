@@ -140,7 +140,7 @@ const educationExperience = [
                 <div className='text'>
                    <h2>Mehdi Zaidane</h2>
                    <h1>I'M A DEVELOPER</h1>
-                   <p>Passionate Front-End developer capable of transforming ideas into incredible functional web pages.</p>
+                   <p>Passionate Full-Stack developer capable of transforming ideas into incredible functional web pages.</p>
                    <button><Link to="/contact">Contact Me</Link></button>
                </div>
                <div className='photo'>
@@ -159,7 +159,7 @@ const educationExperience = [
          <div className='aboutMe'>
            <img src={foto} alt="" width={400}></img>
            <div className='try'>
-             <p>I'm Mehdi Zaidane and I just finished my programming degree at Varia Vocational School. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack delevoper one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have some SQL experience.  I have 5 months of work experience as a programmer and I have also done many personal projects which you can see on GitHub.</p><br></br>
+             <p>I'm Mehdi Zaidane and I just finished my programming degree at Varia Vocational School. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack developer one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have experience in MySQL and NoSQL.  I have 5 months of work experience as a developer and I have also done many personal projects which you can see on GitHub.</p><br></br>
               <p>You can check all my work and personal projects in this portfolio. </p>
              <button><a href={CV} download>Download CV</a></button>
              <button><Link to="/contact">Contact Me</Link></button>
