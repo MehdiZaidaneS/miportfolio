@@ -77,7 +77,7 @@ useEffect(() => {
                className="youtube social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faGithub} size="2x" />
              </a>
-             <a href="https://www.linkedin.com/in/mehdi-zaidane-015a14296/"
+             <a href="https://www.linkedin.com/in/mehdi-snickeri-015a14296/"
                className="facebook social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faLinkedin} size="2x" />
              </a>
@@ -101,7 +101,7 @@ useEffect(() => {
                className="youtube social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faGithub} size="2x" />
              </a>
-             <a href="https://www.linkedin.com/in/mehdi-zaidane-015a14296/"
+             <a href="https://www.linkedin.com/in/mehdi-snickeri-015a14296/"
                className="facebook social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faLinkedin} size="2x" />
              </a>
