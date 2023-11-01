@@ -13,7 +13,7 @@ import dodgeball from "./media/dodgeball.png"
 import ChatApp from "./media/ChatApp.png"
 import GymApp from "./media/gymapp.png"
 import portofolio from "./media/portofolio.png"
-
+import expenseTracker from "./media/expenseTracker.png"
 import SV2022 from "./media/SV2022.png"
 import zhoot from "./media/zhoot.png"
 
@@ -31,6 +31,15 @@ const Projects = () => {
 
 
   const projects = [
+    {
+      title: "Expense Tracker",
+      description: "Application created with ReactJs, NodeJs and MongoDB. The application saves our income and expenses in the database.",
+      año: 2023,
+      language: "NodeJS",
+      url: expenseTracker,
+      id: 12,
+      link: "https://github.com/MehdiZaidaneS/ExpenseTracker"
+    },
     {
       title: "ZHOOT",
       description: "Making my personal social network with React Js.",
@@ -116,7 +125,7 @@ const Projects = () => {
       title: "Log In & Register",
       description: "Functional Login and Registration Form made with React and Firebase.",
       año: 2022,
-      language: "React",
+      language: "Firebase",
       url: logreg,
       id:2,
       link: "https://github.com/MehdiZaidaneS/UserLogAndRegister.git"
@@ -125,7 +134,7 @@ const Projects = () => {
       title: "Chat App",
       description: "Functional Chat App made with React and Firebase.",
       año: 2023,
-      language: "React",
+      language: "Firebase",
       url: ChatApp,
       id:1,
       link: "https://github.com/MehdiZaidaneS/ChatApp"
@@ -170,6 +179,8 @@ const Projects = () => {
          <h1>Latest Works</h1> 
          <div className='buttons'>
             <button onClick={() => setLanguageShow("")}>All</button>
+            <button onClick={() =>setLanguageShow("NodeJS")}>React/NodeJS</button>
+            <button onClick={() =>setLanguageShow("Firebase")}>React/Firebase</button>
             <button onClick={() =>setLanguageShow("React")}>React</button>
             <button onClick={() =>setLanguageShow("TypeScript")}>TypeScript</button>
             <button onClick={() =>setLanguageShow("C#")}>C#</button>
