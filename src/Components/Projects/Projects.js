@@ -15,6 +15,9 @@ import GymApp from "./media/gymapp.png"
 import portofolio from "./media/portofolio.png"
 import expenseTracker from "./media/expenseTracker.png"
 import SV2022 from "./media/SV2022.png"
+import adivinador from "./media/Adivinador.png"
+import banco from "./media/Banco.png"
+import Portfolio2023 from "./media/Potfolio2023.png"
 import zhoot from "./media/zhoot.png"
 
 
@@ -31,14 +34,48 @@ const Projects = () => {
 
 
   const projects = [
+    
+   
+    {
+      title: "New Portfolio",
+      description: "My personal project made with React Js. You can review all my projects and personal info",
+      año: 2023,
+      language: "React",
+      url: Portfolio2023,
+      id: 15,
+      link: "https://github.com/MehdiZaidaneS/miportfolio"
+    },
+
     {
       title: "Expense Tracker",
       description: "Application created with ReactJs, NodeJs and MongoDB. The application saves our income and expenses in the database.",
       año: 2023,
       language: "NodeJS",
       url: expenseTracker,
-      id: 12,
+      id: 14,
       link: "https://github.com/MehdiZaidaneS/ExpenseTracker"
+    },
+    
+    
+    
+    {
+      title: "SantaSnow",
+      description: "SantaSnow is game built with Unity/C# in 2022. The game has 2 game modes and 3 different enemies. The goal of the game is to kill the final boss without losing the initial 5 lives.",
+      año: 2022,
+      language: "C#",
+      url: santa,
+      id: 13,
+      link: "https://github.com/MehdiZaidaneS/SantaSnowScripts.git"
+    },
+    
+    {
+      title: "The Wolf Adventure",
+      description: "The Adventures of the Wolf it is a game created in group with Unity/C# in 2021.The game consists of overcoming 3 levels fighting with other animals and collecting mushrooms to gain special effects.",
+      año: 2021,
+      language: "C#",
+      url: wolfgame,
+      id: 12,
+      link: "https://github.com/varia-ict/varia-agile-20C-ryhma-1.git"
     },
     {
       title: "ZHOOT",
@@ -49,50 +86,53 @@ const Projects = () => {
       id: 11,
       link: "https://github.com/MehdiZaidaneS/socialnetwork"
     },
-    {
-      title: "Supervivientes 2022",
-      description: "TV reality web site project made with React JS.",
-      año: 2022,
-      language: "React",
-      url: SV2022,
-      id: 10,
-      link: "https://github.com/MehdiZaidaneS/SV2022"
-    },
+
     {
       title: "Old Portfolio",
       description: "My first portfolio created with React Typescript.",
       año: 2022,
       language: "TypeScript",
       url: portofolio,
-      id: 9,
+      id: 10,
       link: "https://github.com/MehdiZaidaneS/portfolio"
     },
+    
+    
     {
-      title: "SantaSnow",
-      description: "SantaSnow is game built with Unity/C# in 2022. The game has 2 game modes and 3 different enemies. The goal of the game is to kill the final boss without losing the initial 5 lives.",
+      title: "RPG Game",
+      description: "RPG Game was my first programming project, created with Java in 2021. The game consists of overcoming tasks and challenges and completing an incredible story.",
+      año: 2021,
+      language: "Java",
+      url: java,
+      id:9,
+      link: "https://github.com/MehdiZaidaneS/RPG-Java.git"
+    },
+    {
+      title: "Log In & Register",
+      description: "Functional Login and Registration Form made with React and Firebase.",
       año: 2022,
-      language: "C#",
-      url: santa,
-      id: 8,
-      link: "https://github.com/MehdiZaidaneS/SantaSnowScripts.git"
+      language: "Firebase",
+      url: logreg,
+      id:8,
+      link: "https://github.com/MehdiZaidaneS/UserLogAndRegister.git"
     },
     {
-      title: "Tech Web",
-      description: "This is a technology web page, not yet completed, created in 2021 with HTML and CSS.",
-      año: 2021,
-      language: "HTML & CSS",
-      url:techweb,
-      id: 7,
-      link: "https://github.com/MehdiZaidaneS"
+      title: "Chat App",
+      description: "Functional Chat App made with React and Firebase.",
+      año: 2023,
+      language: "Firebase",
+      url: ChatApp,
+      id:7,
+      link: "https://github.com/MehdiZaidaneS/ChatApp"
     },
     {
-      title: "The Wolf Adventure",
-      description: "The Adventures of the Wolf it is a game created in group with Unity/C# in 2021.The game consists of overcoming 3 levels fighting with other animals and collecting mushrooms to gain special effects.",
-      año: 2021,
-      language: "C#",
-      url: wolfgame,
-      id: 6,
-      link: "https://github.com/varia-ict/varia-agile-20C-ryhma-1.git"
+      title: "Gym App",
+      description: "Application made with react that facilitates your progress in the gym. Count the kilos that you will have to use in each set and the necessary rest.",
+      año: 2023,
+      language: "React",
+      url: GymApp,
+      id:6,
+      link: "https://github.com/MehdiZaidaneS/gymapp"
     },
     {
       title: "Dodge the Ball",
@@ -113,40 +153,40 @@ const Projects = () => {
       link: "https://github.com/MehdiZaidaneS/SupervivientesWeb.git"
     },
     {
-      title: "RPG Game",
-      description: "RPG Game was my first programming project, created with Java in 2021. The game consists of overcoming tasks and challenges and completing an incredible story.",
+      title: "Supervivientes 2022",
+      description: "TV reality web site project made with React JS.",
+      año: 2022,
+      language: "React",
+      url: SV2022,
+      id: 3,
+      link: "https://github.com/MehdiZaidaneS/SV2022"
+    },
+    {
+      title: "Banc",
+      description: "One of my first projects using Java. Basic banc system. You can create account, deposit, and withdraw. In spanish.",
       año: 2021,
       language: "Java",
-      url: java,
-      id:3,
-      link: "https://github.com/MehdiZaidaneS/RPG-Java.git"
+      url: banco,
+      id: 2,
+      link: "https://github.com/MehdiZaidaneS/Banco"
     },
     {
-      title: "Log In & Register",
-      description: "Functional Login and Registration Form made with React and Firebase.",
-      año: 2022,
-      language: "Firebase",
-      url: logreg,
-      id:2,
-      link: "https://github.com/MehdiZaidaneS/UserLogAndRegister.git"
+      title: "I guess your mind",
+      description: "One of my first projects made with Java. Guess what you're thinking. Spanish language.",
+      año: 2021,
+      language: "Java",
+      url: adivinador,
+      id: 1,
+      link: "https://github.com/MehdiZaidaneS/AdivinadorJava"
     },
     {
-      title: "Chat App",
-      description: "Functional Chat App made with React and Firebase.",
-      año: 2023,
-      language: "Firebase",
-      url: ChatApp,
-      id:1,
-      link: "https://github.com/MehdiZaidaneS/ChatApp"
-    },
-    {
-      title: "Gym App",
-      description: "Application made with react that facilitates your progress in the gym. Count the kilos that you will have to use in each set and the necessary rest.",
-      año: 2023,
-      language: "React",
-      url: GymApp,
-      id:0,
-      link: "https://github.com/MehdiZaidaneS/gymapp"
+      title: "Tech Web",
+      description: "This is a technology web page, not yet completed, created in 2021 with HTML and CSS.",
+      año: 2021,
+      language: "HTML & CSS",
+      url:techweb,
+      id: 0,
+      link: "https://github.com/MehdiZaidaneS/WebPage"
     }
   ]
 
