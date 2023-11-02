@@ -52,20 +52,20 @@ const codingSkills = [
   {
     id: 1,
     name: "CSS",
-    progress: 90,
-    percentage: "90%"
+    progress: 100,
+    percentage: "100%"
   },
   {
     id: 2,
     name: "React",
-    progress: 85,
-    percentage: "80%"
+    progress: 90,
+    percentage: "90%"
   },
   {
     id: 3,
     name: "JavaScript",
-    progress: 85,
-    percentage: "85%"
+    progress: 90,
+    percentage: "90%"
   },
   {
     id: 4,
@@ -88,9 +88,15 @@ const codingSkills = [
   {
     id: 7,
     name: "SQL",
-    progress: 55,
-    percentage: "55%"
+    progress: 60,
+    percentage: "60%"
   },
+  {
+    id: 8,
+    name: "NodeJS",
+    progress: 60,
+    percentage: "60%"
+  }
   
 
 ]
@@ -159,7 +165,7 @@ const educationExperience = [
          <div className='aboutMe'>
            <img src={foto} alt="" width={400}></img>
            <div className='try'>
-             <p>I'm Mehdi Zaidane and I just finished my programming degree at Varia Vocational School. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack developer one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have experience in MySQL and NoSQL.  I have 5 months of work experience as a developer and I have also done many personal projects which you can see on GitHub.</p><br></br>
+             <p>I finished my programming degree at Varia Vocational School in 2023. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack developer one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have experience some experiencie with SQL and NodeJS.  I have few months of work experience as a developer and I have also done many personal projects which you can see on GitHub.</p><br></br>
               <p>You can check all my work and personal projects in this portfolio. </p>
              <button><a href={CV} download>Download CV</a></button>
              <button><Link to="/contact">Contact Me</Link></button>
