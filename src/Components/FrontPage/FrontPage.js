@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import CV from "./CV PROGRAMMING.pdf"
+import CV from "./CV FULL STACK.pdf"
 import foto from "./foto5.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
