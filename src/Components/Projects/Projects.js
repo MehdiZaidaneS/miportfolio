@@ -4,10 +4,8 @@ import ShowProject from './ShowProject/ShowProject'
 import "./Projects.css"
 
 import santa from "./media/santasnow.jpg"
-import web from "./media/web.png"
 import wolfgame from "./media/wolfgame.jpg"
 import java from "./media/java.png"
-import techweb from "./media/techweb.jpg"
 import logreg from "./media/UserLogAndReg.jpg"
 import dodgeball from "./media/dodgeball.png"
 import ChatApp from "./media/ChatApp.png"
@@ -42,7 +40,7 @@ const Projects = () => {
       año: 2023,
       language: "React",
       url: Portfolio2023,
-      id: 15,
+      id: 13,
       link: "https://github.com/MehdiZaidaneS/miportfolio"
     },
 
@@ -52,7 +50,7 @@ const Projects = () => {
       año: 2023,
       language: "NodeJS",
       url: expenseTracker,
-      id: 14,
+      id: 12,
       link: "https://github.com/MehdiZaidaneS/ExpenseTracker"
     },
     
@@ -64,7 +62,7 @@ const Projects = () => {
       año: 2022,
       language: "C#",
       url: santa,
-      id: 13,
+      id: 11,
       link: "https://github.com/MehdiZaidaneS/SantaSnowScripts.git"
     },
     
@@ -74,7 +72,7 @@ const Projects = () => {
       año: 2021,
       language: "C#",
       url: wolfgame,
-      id: 12,
+      id: 10,
       link: "https://github.com/varia-ict/varia-agile-20C-ryhma-1.git"
     },
     {
@@ -83,7 +81,7 @@ const Projects = () => {
       año: 2023,
       language: "React",
       url: zhoot,
-      id: 11,
+      id: 9,
       link: "https://github.com/MehdiZaidaneS/socialnetwork"
     },
 
@@ -93,7 +91,7 @@ const Projects = () => {
       año: 2022,
       language: "TypeScript",
       url: portofolio,
-      id: 10,
+      id: 8,
       link: "https://github.com/MehdiZaidaneS/portfolio"
     },
     
@@ -104,7 +102,7 @@ const Projects = () => {
       año: 2021,
       language: "Java",
       url: java,
-      id:9,
+      id:7,
       link: "https://github.com/MehdiZaidaneS/RPG-Java.git"
     },
     {
@@ -113,7 +111,7 @@ const Projects = () => {
       año: 2022,
       language: "Firebase",
       url: logreg,
-      id:8,
+      id:6,
       link: "https://github.com/MehdiZaidaneS/UserLogAndRegister.git"
     },
     {
@@ -122,7 +120,7 @@ const Projects = () => {
       año: 2023,
       language: "Firebase",
       url: ChatApp,
-      id:7,
+      id:5,
       link: "https://github.com/MehdiZaidaneS/ChatApp"
     },
     {
@@ -131,7 +129,7 @@ const Projects = () => {
       año: 2023,
       language: "React",
       url: GymApp,
-      id:6,
+      id:4,
       link: "https://github.com/MehdiZaidaneS/gymapp"
     },
     {
@@ -140,25 +138,17 @@ const Projects = () => {
       año: 2021,
       language: "C#",
       url: dodgeball,
-      id: 5,
+      id: 3,
       link: "https://github.com/MehdiZaidaneS/DodgeBallGameScripts.git"
     },
-    {
-      title: "Supervivientes",
-      description: "Supervivientes was my first web page created with HTML and CSS. It was made in 2021. It is a fan page about the most popular programs in Spain.",
-      año: 2021,
-      language: "HTML & CSS",
-      url: web,
-      id: 4,
-      link: "https://github.com/MehdiZaidaneS/SupervivientesWeb.git"
-    },
+    
     {
       title: "Supervivientes 2022",
       description: "TV reality web site project made with React JS.",
       año: 2022,
       language: "React",
       url: SV2022,
-      id: 3,
+      id: 2,
       link: "https://github.com/MehdiZaidaneS/SV2022"
     },
     {
@@ -167,7 +157,7 @@ const Projects = () => {
       año: 2021,
       language: "Java",
       url: banco,
-      id: 2,
+      id: 1,
       link: "https://github.com/MehdiZaidaneS/Banco"
     },
     {
@@ -176,17 +166,8 @@ const Projects = () => {
       año: 2021,
       language: "Java",
       url: adivinador,
-      id: 1,
-      link: "https://github.com/MehdiZaidaneS/AdivinadorJava"
-    },
-    {
-      title: "Tech Web",
-      description: "This is a technology web page, not yet completed, created in 2021 with HTML and CSS.",
-      año: 2021,
-      language: "HTML & CSS",
-      url:techweb,
       id: 0,
-      link: "https://github.com/MehdiZaidaneS/WebPage"
+      link: "https://github.com/MehdiZaidaneS/AdivinadorJava"
     }
   ]
 
@@ -225,7 +206,6 @@ const Projects = () => {
             <button onClick={() =>setLanguageShow("TypeScript")}>TypeScript</button>
             <button onClick={() =>setLanguageShow("C#")}>C#</button>
             <button onClick={() =>setLanguageShow("Java")}>Java</button>
-            <button onClick={() =>setLanguageShow("HTML & CSS")}>HTML & CSS</button>
          </div>
     
          {
