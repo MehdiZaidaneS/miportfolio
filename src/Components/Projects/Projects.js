@@ -36,7 +36,7 @@ const Projects = () => {
    
     {
       title: "New Portfolio",
-      description: "My personal project made with React Js. You can review all my projects and personal info",
+      description: "My personal portfolio made with ReactJs. You can review all my projects and personal info.",
       año: 2023,
       language: "React",
       url: Portfolio2023,
@@ -46,7 +46,7 @@ const Projects = () => {
 
     {
       title: "Expense Tracker",
-      description: "Application created with ReactJs, NodeJs and MongoDB. The application saves our income and expenses in the database.",
+      description: "Application created with ReactJs, NodeJs and MongoDB. The application saves our income and expenses in the database. It displays also all transactions in the main dashboard.",
       año: 2023,
       language: "NodeJS",
       url: expenseTracker,
@@ -87,7 +87,7 @@ const Projects = () => {
 
     {
       title: "Old Portfolio",
-      description: "My first portfolio created with React Typescript.",
+      description: "My first portfolio created with Typescript/React.",
       año: 2022,
       language: "TypeScript",
       url: portofolio,
@@ -144,7 +144,7 @@ const Projects = () => {
     
     {
       title: "Supervivientes 2022",
-      description: "TV reality web site project made with React JS.",
+      description: "TV reality web site project made with ReactJS.",
       año: 2022,
       language: "React",
       url: SV2022,

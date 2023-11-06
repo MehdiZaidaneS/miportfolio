@@ -165,7 +165,7 @@ const educationExperience = [
          <div className='aboutMe'>
            <img src={foto} alt="" width={400}></img>
            <div className='try'>
-             <p>I finished my programming degree at Varia Vocational School in 2023. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack developer one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have experience some experiencie with SQL and NodeJS.  I have few months of work experience as a developer and I have also done many personal projects which you can see on GitHub.</p><br></br>
+             <p>I finished my programming degree at Varia Vocational School in 2023. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack developer one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have some experience with SQL and NodeJS.<br></br> I have few months of work experience as a developer and I have also done many personal projects which you can see on GitHub.</p><br></br>
               <p>You can check all my work and personal projects in this portfolio. </p>
              <button><a href={CV} download>Download CV</a></button>
              <button><Link to="/contact">Contact Me</Link></button>
