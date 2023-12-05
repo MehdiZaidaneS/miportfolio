@@ -8,6 +8,7 @@ import wolfgame from "./media/wolfgame.jpg"
 import java from "./media/java.png"
 import logreg from "./media/UserLogAndReg.jpg"
 import dodgeball from "./media/dodgeball.png"
+import tablecreator from "./media/TableCreatorr.jpg"
 import ChatApp from "./media/ChatApp.png"
 import GymApp from "./media/gymapp.png"
 import portofolio from "./media/portofolio.png"
@@ -33,7 +34,16 @@ const Projects = () => {
 
   const projects = [
     
-   
+    {
+      title: "Table Creator",
+      description: "Full-Stack app made with ReactJs, ExpressJS, and MongoDB. The application allows you to create tables and add rows with data that is stored in the database. The tables will be organized by names. You can delete rows, delete tables, move tables to reorder the way they are displayed.",
+      año: 2023,
+      language: "NodeJS",
+      url: tablecreator,
+      id: 14,
+      link: "https://github.com/MehdiZaidaneS/TableCreator"
+
+    },
     {
       title: "New Portfolio",
       description: "My personal portfolio made with ReactJs. You can review all my projects and personal info.",
