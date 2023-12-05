@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c1cde1e9.css",
-    "main.js": "./static/js/main.7fb98917.js",
+    "main.js": "./static/js/main.b4b1c731.js",
     "static/js/787.1f11dfe9.chunk.js": "./static/js/787.1f11dfe9.chunk.js",
     "static/media/foto5.jpg": "./static/media/foto5.f717acc40f43e51eac21.jpg",
     "static/media/portofolio.png": "./static/media/portofolio.4ea5cb71aaf2dce5e9ac.png",
@@ -11,6 +11,7 @@
     "static/media/SV2022.png": "./static/media/SV2022.7f2e0a38e2ef44dbbd9c.png",
     "static/media/zhoot.png": "./static/media/zhoot.3408f19cf856f72092f8.png",
     "static/media/santasnow.jpg": "./static/media/santasnow.05416a9f76e209495ee7.jpg",
+    "static/media/TableCreatorr.jpg": "./static/media/TableCreatorr.7832e96b139964f94a60.jpg",
     "static/media/dodgeball.png": "./static/media/dodgeball.383814fd6a9de8a7019e.png",
     "static/media/CV FULL STACK.pdf": "./static/media/CV FULL STACK.6070692632bd43852d82.pdf",
     "static/media/expenseTracker.png": "./static/media/expenseTracker.0a6c57b14751722aa060.png",
@@ -23,11 +24,11 @@
     "static/media/java.png": "./static/media/java.c868ef295cc32c6b540d.png",
     "index.html": "./index.html",
     "main.c1cde1e9.css.map": "./static/css/main.c1cde1e9.css.map",
-    "main.7fb98917.js.map": "./static/js/main.7fb98917.js.map",
+    "main.b4b1c731.js.map": "./static/js/main.b4b1c731.js.map",
     "787.1f11dfe9.chunk.js.map": "./static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1cde1e9.css",
-    "static/js/main.7fb98917.js"
+    "static/js/main.b4b1c731.js"
   ]
 }
