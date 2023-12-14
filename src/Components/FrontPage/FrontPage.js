@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import CV from "./CV FULL STACK.pdf"
+import CV from "./FULLSTACK CV.pdf"
 import foto from "./foto5.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
@@ -93,12 +93,28 @@ const codingSkills = [
   },
   {
     id: 8,
+    name: "NoSQL",
+    progress: 60,
+    percentage: "60%"
+  },
+  {
+    id: 9,
     name: "NodeJS",
     progress: 60,
     percentage: "60%"
+  },
+  {
+    id: 10,
+    name: "ExpressJS",
+    progress: 60,
+    percentage: "60%"
+  },
+  {
+    id: 11,
+    name: "REST API",
+    progress: 60,
+    percentage: "60%"
   }
-  
-
 ]
 
 const workExperience = [
@@ -165,7 +181,7 @@ const educationExperience = [
          <div className='aboutMe'>
            <img src={foto} alt="" width={400}></img>
            <div className='try'>
-             <p>I finished my programming degree at Varia Vocational School in 2023. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack developer one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have some experience with SQL and NodeJS.<br></br> I have few months of work experience as a developer and I have also done many personal projects which you can see on GitHub.</p><br></br>
+             <p>I finished my programming degree at Varia Vocational School in 2023. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack developer one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have experience with SQL and NodeJS.<br></br> I have worked as a Software developer and also completed many personal projects which you can see on GitHub.</p><br></br>
               <p>You can check all my work and personal projects in this portfolio. </p>
              <button><a href={CV} download>Download CV</a></button>
              <button><Link to="/contact">Contact Me</Link></button>

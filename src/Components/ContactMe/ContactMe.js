@@ -40,7 +40,7 @@ const ContactMe = () => {
       id: 0,
       name: "Email",
       icon: faMailBulk,
-      text: "olenmehdi@gmail.com"
+      text: "mehdicontacto@gmail.com"
     },
     {
       id: 1,
