@@ -45,72 +45,60 @@ const FrontPage = () => {
 const codingSkills = [
   {
     id: 0,
-    name: "HTML",
+    name: "HTML & CSS",
     progress: 100,
     percentage: "100%"
   },
   {
     id: 1,
-    name: "CSS",
+    name: "ReactJS",
     progress: 100,
     percentage: "100%"
   },
   {
     id: 2,
-    name: "React",
-    progress: 90,
-    percentage: "90%"
+    name: "JavaScript",
+    progress: 100,
+    percentage: "100%"
   },
   {
     id: 3,
-    name: "JavaScript",
-    progress: 90,
-    percentage: "90%"
-  },
-  {
-    id: 4,
     name: "Typescript",
     progress: 85,
     percentage: "85%"
   },  
   {
-    id: 5,
+    id: 4,
     name: "C#",
-    progress: 70,
-    percentage: "70%"
+    progress: 85,
+    percentage: "85%"
+  },
+  {
+    id: 5,
+    name: "Java",
+    progress: 85,
+    percentage: "85%"
   },
   {
     id: 6,
-    name: "Java",
-    progress: 70,
-    percentage: "70%"
+    name: "SQL",
+    progress: 75,
+    percentage: "75%"
   },
   {
     id: 7,
-    name: "SQL",
-    progress: 60,
-    percentage: "60%"
+    name: "NoSQL",
+    progress: 75,
+    percentage: "75%"
   },
   {
     id: 8,
-    name: "NoSQL",
-    progress: 60,
-    percentage: "60%"
+    name: "NodeJS",
+    progress: 75,
+    percentage: "75%"
   },
   {
     id: 9,
-    name: "NodeJS",
-    progress: 60,
-    percentage: "60%"
-  },
-  {
-    id: 10,
-    name: "ExpressJS",
-    progress: 60,
-    percentage: "60%"
-  },
-  {
-    id: 11,
     name: "REST API",
     progress: 60,
     percentage: "60%"
@@ -120,10 +108,17 @@ const codingSkills = [
 const workExperience = [
   {
     id: 0,
+    year: "01.01.2023 - 01.07.2023",
+    jobTitle: "Front-end Developer",
+    company: "Coviran Supermercados",
+    introduction: "I worked as a Junior Front-end developer remotely from Finland. Tasks: Develop responsive React components with dynamic content. Create styles and animations for components using CSS. Write tests for web components using React testing library"
+  },
+  {
+    id: 1,
     year: "31.03.2022 - 11.11.2022",
     jobTitle: "Software Developer",
     company: "Crementum Oy",
-    introduction: "My role at Crementum was to control, update and maintain the functioning of the whole system. The goal was to store and display the recorded sensor data in the database as in Grafana. The programming language was Java and the database was InfluxDB. I also used tools like Azure DevOps, Azure Portal, PuTTY or Grafana."
+    introduction: "I worked as a Software Developer for 6 months as an intern at Crementum. Tasks: Control, deploy, update and maintain the system. Store the data collected from the sensors in the DB and display them in Grafana."
   }
 ]
 
@@ -134,22 +129,7 @@ const educationExperience = [
     jobTitle: "Software Developer",
     company: "Vantaan Ammattiopisto Varia",
     introduction: "I completed my Information and communication technology degree at Varia Vocational School. There I learnt the basics of ICT and I focused on the branch of Software Development as a profession."
-  },
-  {
-    id: 1,
-    year: "2017 - 2018",
-    jobTitle: "Lukio",
-    company: "IES Ben Gabirol",
-    introduction: "I completed the scientific baccalaureate in Malaga, Spain."
-  },
-  {
-    id: 2,
-    year: "2007 - 2017",
-    jobTitle: "Peruskoulu",
-    company: "IES Mercedes Labrador",
-    introduction: "I completed my compulsory secondary education in Malaga, Spain."
-  },
-  
+  }
 ]
 
 
@@ -163,7 +143,7 @@ const educationExperience = [
                    <h2>Mehdi Zaidane</h2>
                    <h1>I'M A DEVELOPER</h1>
                    <p>Passionate Full-Stack developer capable of transforming ideas into incredible functional web pages.</p>
-                   <button><Link to="/contact">Contact Me</Link></button>
+                   <button><Link to="/projects">My Projects</Link></button>
                </div>
                <div className='photo'>
                    <img src={foto} alt="" width={430}></img>
@@ -181,10 +161,11 @@ const educationExperience = [
          <div className='aboutMe'>
            <img src={foto} alt="" width={400}></img>
            <div className='try'>
-             <p>I finished my programming degree at Varia Vocational School in 2023. I am very motivated to learn and gain work experience. I'm specialized in Front-end but I'm working hard to become a Full-Stack developer one day. <br></br>ReactJS, HTML, CSS, Typescript, Java and C# are my strengths. I also have experience with SQL and NodeJS.<br></br> I have worked as a Software developer and also completed many personal projects which you can see on GitHub.</p><br></br>
+             <p>I'm a highly motivated and solution-oriented developer, eagerly seeking opportunities in the field of Full-Stack Development. 
+             I have extensive knowledge in Front-end development, but I'm not limited to Full-Stack developer, i can also work with Node.JS + Relational/Non-relational DBs + REST.
+             I stay up-to-date with the latest industry trends and continuously seek opportunities to enhance my skillset. My primary passion lies in front-end development.</p><br></br>
               <p>You can check all my work and personal projects in this portfolio. </p>
              <button><a href={CV} download>Download CV</a></button>
-             <button><Link to="/contact">Contact Me</Link></button>
              
             </div>
          </div>

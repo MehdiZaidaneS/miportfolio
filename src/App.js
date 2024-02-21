@@ -6,7 +6,7 @@ import {
 	Link
 } from 'react-router-dom';
 // import AboutMe from './Components/AboutMe/AboutMe';
-import ContactMe from './Components/ContactMe/ContactMe';
+// import ContactMe from './Components/ContactMe/ContactMe';
 import Projects from './Components/Projects/Projects';
 import FrontPage from "./Components/FrontPage/FrontPage";
  import logo from "./media/logo.png"
@@ -69,7 +69,7 @@ useEffect(() => {
         <div className='Bar'>
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            {/* <Link to="/contact">Contact</Link> */}
             {/* <Link to="/aboutme">About Me</Link> */}
         </div>
         <div className='socialmedia'>
@@ -77,7 +77,7 @@ useEffect(() => {
                className="youtube social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faGithub} size="2x" />
              </a>
-             <a href="https://www.linkedin.com/in/mehdi-snickeri-015a14296/"
+             <a href="https://www.linkedin.com/in/mehdi-snickeri/"
                className="facebook social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faLinkedin} size="2x" />
              </a>
@@ -94,14 +94,14 @@ useEffect(() => {
           <div className='Bar2'>
             <Link to="/" onClick={change}>Home</Link>
             <Link to="/projects" onClick={change}>Projects</Link>
-            <Link to="/contact" onClick={change}>Contact</Link>
+            {/* <Link to="/contact" onClick={change}>Contact</Link> */}
           </div>
           <div className='socialmedia2'>
             <a href="https://github.com/MehdiZaidaneS" 
                className="youtube social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faGithub} size="2x" />
              </a>
-             <a href="https://www.linkedin.com/in/mehdi-snickeri-015a14296/"
+             <a href="https://www.linkedin.com/in/mehdi-snickeri/"
                className="facebook social" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon icon={faLinkedin} size="2x" />
              </a>
@@ -133,7 +133,7 @@ useEffect(() => {
             <Route exact path='/' element={<FrontPage/>} />
             <Route exact path='/projects' element={<Projects/>} />
             {/* <Route exact path='/aboutme' element={<AboutMe/>} /> */}
-            <Route exact path='/contact' element={<ContactMe/>} /> 
+            {/* <Route exact path='/contact' element={<ContactMe/>} />  */}
       </Routes>
      }
 

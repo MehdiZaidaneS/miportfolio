@@ -214,12 +214,12 @@ html {
   justify-content: center;
 }
 
-.educations div:nth-child(odd) {
+.experiences div:nth-child(odd) {
   float: left;
   
 }
 
-.educations div:nth-child(even) {
+.experiences div:nth-child(even) {
   float: right;
   
 }
