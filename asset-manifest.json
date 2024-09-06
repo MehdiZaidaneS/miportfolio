@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a5935a9a.css",
-    "main.js": "./static/js/main.00d5dcd5.js",
+    "main.js": "./static/js/main.9fa582fe.js",
     "static/js/787.1f11dfe9.chunk.js": "./static/js/787.1f11dfe9.chunk.js",
     "static/media/foto5.jpg": "./static/media/foto5.f717acc40f43e51eac21.jpg",
     "static/media/portofolio.png": "./static/media/portofolio.4ea5cb71aaf2dce5e9ac.png",
@@ -13,7 +13,7 @@
     "static/media/santasnow.jpg": "./static/media/santasnow.05416a9f76e209495ee7.jpg",
     "static/media/TableCreatorr.jpg": "./static/media/TableCreatorr.7832e96b139964f94a60.jpg",
     "static/media/dodgeball.png": "./static/media/dodgeball.383814fd6a9de8a7019e.png",
-    "static/media/FULLSTACK CV.pdf": "./static/media/FULLSTACK CV.ecf4614a80003bd1af23.pdf",
+    "static/media/FULLSTACK CV.pdf": "./static/media/FULLSTACK CV.c0571307161006ce2cab.pdf",
     "static/media/expenseTracker.png": "./static/media/expenseTracker.0a6c57b14751722aa060.png",
     "static/media/Adivinador.png": "./static/media/Adivinador.9fa5cb19f99c65334e6b.png",
     "static/media/Banco.png": "./static/media/Banco.ec270d7e08610217a49d.png",
@@ -25,11 +25,11 @@
     "static/media/java.png": "./static/media/java.c868ef295cc32c6b540d.png",
     "index.html": "./index.html",
     "main.a5935a9a.css.map": "./static/css/main.a5935a9a.css.map",
-    "main.00d5dcd5.js.map": "./static/js/main.00d5dcd5.js.map",
+    "main.9fa582fe.js.map": "./static/js/main.9fa582fe.js.map",
     "787.1f11dfe9.chunk.js.map": "./static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5935a9a.css",
-    "static/js/main.00d5dcd5.js"
+    "static/js/main.9fa582fe.js"
   ]
 }
