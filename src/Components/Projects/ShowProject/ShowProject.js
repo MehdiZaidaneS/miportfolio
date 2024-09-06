@@ -6,9 +6,9 @@ const ShowProject = ({title,description,ano,language,url,link}) => {
     <div className='showProject'>
       <h2>{title}</h2>
       <div className='projectInfo'>
-        <div className='uno'>
+        {/*<div className='uno'>
           <img src={url} width={350} height={200} alt=""></img>
-        </div>
+  </div>*/}
         <div className='dos'>
           <h3>Project brief:</h3>
           <p>{description}</p>

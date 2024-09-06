@@ -16,9 +16,9 @@ import "./FrontPage.css"
 const FrontPage = () => {
 
 
- const [skills, setSkills] = useState(true);
+ const [skills, setSkills] = useState(false);
  const [experience, setExperience] = useState(false);
- const [education, setEducation] = useState(false);
+ const [education, setEducation] = useState(true);
  const [color, setColor] = useState("transparent")
  const [color2, setColor2] = useState("transparent")
  const [color3, setColor3] = useState("transparent")
@@ -64,43 +64,43 @@ const codingSkills = [
   {
     id: 3,
     name: "Typescript",
-    progress: 85,
+    progress: 100,
     percentage: "85%"
   },  
   {
     id: 4,
     name: "C#",
-    progress: 85,
+    progress: 100,
     percentage: "85%"
   },
   {
     id: 5,
     name: "Java",
-    progress: 85,
+    progress: 100,
     percentage: "85%"
   },
   {
     id: 6,
     name: "SQL",
-    progress: 75,
+    progress: 100,
     percentage: "75%"
   },
   {
     id: 7,
     name: "NoSQL",
-    progress: 75,
+    progress: 100,
     percentage: "75%"
   },
   {
     id: 8,
     name: "NodeJS",
-    progress: 75,
+    progress: 100,
     percentage: "75%"
   },
   {
     id: 9,
     name: "REST API",
-    progress: 60,
+    progress: 100,
     percentage: "60%"
   }
 ]
@@ -108,13 +108,6 @@ const codingSkills = [
 const workExperience = [
   {
     id: 0,
-    year: "01.01.2023 - 01.07.2023",
-    jobTitle: "Front-end Developer",
-    company: "Coviran Supermercados",
-    introduction: "I worked as a Junior Front-end developer remotely from Finland. Tasks: Develop responsive React components with dynamic content. Create styles and animations for components using CSS. Write tests for web components using React testing library"
-  },
-  {
-    id: 1,
     year: "31.03.2022 - 11.11.2022",
     jobTitle: "Software Developer",
     company: "Crementum Oy",
@@ -125,11 +118,19 @@ const workExperience = [
 const educationExperience = [
   {
     id: 0,
+    year: "2024 - 2028",
+    jobTitle: "Software Engineer",
+    company: "Metropolia Ammattikorkeakoulu",
+    introduction: " I'm currently studying at Metropolia Ammattikorkeakoulu to get a Bachelor's degree in Software Engineering. "
+  },
+  {
+    id: 1,
     year: "2020 - 2023",
     jobTitle: "Software Developer",
     company: "Vantaan Ammattiopisto Varia",
     introduction: "I completed my Information and communication technology degree at Varia Vocational School. There I learnt the basics of ICT and I focused on the branch of Software Development as a profession."
-  }
+  },
+
 ]
 
 
@@ -142,7 +143,7 @@ const educationExperience = [
                 <div className='text'>
                    <h2>Mehdi Zaidane</h2>
                    <h1>I'M A DEVELOPER</h1>
-                   <p>Passionate Full-Stack developer capable of transforming ideas into incredible functional web pages.</p>
+                   <p>Passionate Software developer capable of transforming ideas into incredible functional web pages.</p>
                    <button><Link to="/projects">My Projects</Link></button>
                </div>
                <div className='photo'>
@@ -162,8 +163,8 @@ const educationExperience = [
            <img src={foto} alt="" width={400}></img>
            <div className='try'>
              <p>I'm a highly motivated and solution-oriented developer, eagerly seeking opportunities in the field of Full-Stack Development. 
-             I have extensive knowledge in Front-end development, but I'm not limited to Full-Stack developer, i can also work with Node.JS + Relational/Non-relational DBs + REST.
-             I stay up-to-date with the latest industry trends and continuously seek opportunities to enhance my skillset. My primary passion lies in front-end development.</p><br></br>
+             I have extensive knowledge in Front-end development, but  i can also work with Node.JS + Relational/Non-relational DBs + REST.</p><br></br>
+             <p>I continuously seek opportunities to enhance my skillset. My primary passion lies in Full-Stack development.</p><br></br>
               <p>You can check all my work and personal projects in this portfolio. </p>
              <button><a href={CV} download>Download CV</a></button>
              
@@ -180,7 +181,7 @@ const educationExperience = [
                {
                 codingSkills.map(skill => {
                   return(
-                    <Progressbar bgcolor="gray" progress={skill.progress} name={skill.name} height={23} />
+                    <Progressbar bgcolor="white" progress={skill.progress} name={skill.name} height={23} />
                   )
                 })
                }
