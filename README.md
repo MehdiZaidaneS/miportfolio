@@ -2,13 +2,10 @@
 
 This is my personal developer portfolio built with **React.js**.  
 It showcases my projects, skills, and background as a **Full-Stack Developer**.
+[Click to View Portfolio](https://mehdizaidanes.github.io/miportfolio/)
 
 
-## Live Demo
-[View Portfolio](https://mehdizaidanes.github.io/miportfolio/)
-
-
-## Features
+## • Features
 - Built with **React.js** and **React Router**
 - Fully responsive with a collapsible sidebar
 - Smooth navigation between pages
@@ -17,7 +14,7 @@ It showcases my projects, skills, and background as a **Full-Stack Developer**.
 - Downloadable CV and About Me section
 
 
-## 🛠️ Tech Stack
+## • Tech Stack
 - **Frontend:** React.js, JavaScript (ES6+), CSS3
 - **Icons:** Font Awesome
 - **Routing:** React Router DOM
